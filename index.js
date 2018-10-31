@@ -1,9 +1,7 @@
 const { dialog, globalShortcut, BrowserWindow } = require('electron');
 
 const disableRefresh = () => {
-    globalShortcut.register('CommandOrControl+R', () => {
-      //
-    })
+    globalShortcut.register('CommandOrControl+R', () => { /**/ })
 }
 
 const enableRefresh = () => {
@@ -16,8 +14,4 @@ exports.onWindow = function (win) {
   win.on('blur', enableRefresh)
   win.on('focus', disableRefresh)
   win.on('closed', enableRefresh)
-}
-
-exports.onApp = (app) => {
-  //
 }

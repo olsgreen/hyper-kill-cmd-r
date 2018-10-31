@@ -6,9 +6,9 @@
     "hyper.app",
     "hyper-plugin"
   ],
-  "description": "Prevents OSX",
+  "description": "Extension for Hyper that prevents `Cmd+R` from nuking your session.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeit/hyperpower.git"
+    "url": "git+https://github.com/olsgreen/kill-cmd-r.git"
   }
 }
