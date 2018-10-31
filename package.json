@@ -1,12 +1,12 @@
 {
-  "name": "kill-cmd-r",
+  "name": "hyper-kill-cmd-r",
   "version": "0.9.0",
   "keywords": [
     "hyper",
     "hyper.app",
     "hyper-plugin"
   ],
-  "description": "Extension for Hyper that prevents `Cmd+R` from nuking your session.",
+  "description": "An extension for Hyper that prevents `Cmd+R` from nuking your session.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/olsgreen/kill-cmd-r.git"
